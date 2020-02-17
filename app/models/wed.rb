@@ -1,0 +1,2 @@
+class Wed < ApplicationRecord
+end

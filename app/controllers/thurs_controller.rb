@@ -1,0 +1,2 @@
+class ThursController < ApplicationController
+end
