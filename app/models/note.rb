@@ -1,3 +1,3 @@
 class Note < ApplicationRecord
-  belongs_to :habit, dependent: :destroy
+  belongs_to :habit
 end

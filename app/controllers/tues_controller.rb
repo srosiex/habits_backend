@@ -1,2 +1,0 @@
-class TuesController < ApplicationController
-end

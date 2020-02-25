@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_02_17_232428) do
+ActiveRecord::Schema.define(version: 2020_02_20_190326) do
 
   create_table "fris", force: :cascade do |t|
     t.string "plan"
@@ -25,7 +25,7 @@ ActiveRecord::Schema.define(version: 2020_02_17_232428) do
     t.boolean "complete"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.integer "days_complete"
+    t.integer "days_complete", default: 0
   end
 
   create_table "mons", force: :cascade do |t|

@@ -1,2 +1,0 @@
-class WedsController < ApplicationController
-end

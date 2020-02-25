@@ -1,2 +1,0 @@
-class FrisController < ApplicationController
-end
