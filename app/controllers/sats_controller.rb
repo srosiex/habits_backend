@@ -30,6 +30,6 @@ class SatsController < ApplicationController
     private
 
     def sat_params
-        params.require(:sat).permit(:plan, :complete)
+        params.require(:plan).permit(:plan, :complete)
     end
 end

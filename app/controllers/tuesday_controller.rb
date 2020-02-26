@@ -30,6 +30,6 @@ class TuesdayController < ApplicationController
     private
 
     def tue_params
-        params.require(:tue).permit(:plan, :complete)
+        params.require(:plan).permit(:plan, :complete)
     end
 end

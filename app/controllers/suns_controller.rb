@@ -30,6 +30,6 @@ class SunsController < ApplicationController
     private
 
     def sun_params
-        params.require(:sun).permit(:plan, :complete)
+        params.require(:plan).permit(:plan, :complete)
     end
 end

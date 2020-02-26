@@ -30,6 +30,6 @@ class ThursdayController < ApplicationController
     private
 
     def thur_params
-        params.require(:thur).permit(:plan, :complete)
+        params.require(:plan).permit(:plan, :complete)
     end
 end
