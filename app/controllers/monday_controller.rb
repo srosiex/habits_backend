@@ -33,3 +33,7 @@ class MondayController < ApplicationController
         params.require(:plan).permit(:plan, :complete)
     end
 end
+
+
+
+
