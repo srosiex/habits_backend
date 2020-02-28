@@ -1,2 +1,0 @@
-class Wed < ApplicationRecord
-end

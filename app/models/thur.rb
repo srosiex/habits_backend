@@ -1,2 +1,0 @@
-class Thur < ApplicationRecord
-end

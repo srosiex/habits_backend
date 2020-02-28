@@ -1,2 +1,0 @@
-class Fri < ApplicationRecord
-end

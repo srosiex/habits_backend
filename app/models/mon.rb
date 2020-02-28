@@ -1,2 +1,0 @@
-class Mon < ApplicationRecord
-end

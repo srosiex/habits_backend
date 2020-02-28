@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_02_26_150827) do
+ActiveRecord::Schema.define(version: 2020_02_26_201021) do
 
   create_table "fris", force: :cascade do |t|
     t.string "plan"
@@ -41,6 +41,13 @@ ActiveRecord::Schema.define(version: 2020_02_26_150827) do
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["habit_id"], name: "index_notes_on_habit_id"
+  end
+
+  create_table "plans", force: :cascade do |t|
+    t.string "plan"
+    t.string "day"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
   end
 
   create_table "sats", force: :cascade do |t|

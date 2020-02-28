@@ -2,7 +2,7 @@ class PlansController < ApplicationController
 
 
         def index
-            @plans = Plan.all
+            @plans = Plan.where(day: params[:day])
             render json: @plans
         end
     
@@ -12,6 +12,7 @@ class PlansController < ApplicationController
         end
     
         def create
+            # {plan: {plan: 'soemthing', day: "Monday"}}
             @plan = Plan.new(plan_params)
             @plan.save
             render json: @wed
